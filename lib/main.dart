@@ -48,7 +48,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: (){
                 setState(() {
-                  rightDiceNumber = rand.nextInt(6) + 1;
+                  leftDiceNumber = rand.nextInt(6) + 1;
                   rightDiceNumber = rand.nextInt(6) + 1;
                 } );
               },
